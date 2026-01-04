@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom elegant colors */
+@theme inline {
+  --color-cream-50: #fefdfb;
+  --color-cream-100: #fdfaf5;
+}
+/* For masonry layout */
+.columns-1, .columns-2, .columns-3, .columns-4 {
+  column-gap: 2rem;
+}
+.break-inside-avoid {
+  break-inside: avoid;
+}
+
+/* Cream color tokens */
+:root {
+  --color-cream-50: #fefdfb;
+  --color-cream-100: #fdfaf5;
+}
